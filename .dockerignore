@@ -1,0 +1,8 @@
+# Files sent to "docker build" are called the build context.
+# These entries keep the context (and the image) clean and small.
+.venv/
+__pycache__/
+*.pyc
+.git/
+.pytest_cache/
+./idea
